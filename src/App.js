@@ -9,8 +9,10 @@ class App extends Component {
     return (
       <MDBContainer>
         <MDBRow center style={{ height: "100vh" }}>
-          <MDBCol middle="true" sm="8" className="text-center">
-            <img src={logo} alt="logo" style={{ width: "10rem" }} />
+          <MDBCol middle="true" sm="8" >
+            <div class="text-center">
+              <img src={logo} alt="logo" style={{ width: "10rem" }} />
+            </div>
             <Login />
           </MDBCol>
         </MDBRow>
