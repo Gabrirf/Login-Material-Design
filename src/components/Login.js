@@ -28,8 +28,9 @@ const FormPage = () => {
                     id="defaultFormLoginPasswordEx"
                     className="form-control"
                 />
-                <div className="text-center mt-4">
-                    <MDBBtn color="indigo" type="submit">Login</MDBBtn>
+                <div className="mt-4">
+                    <a href="#" >Registrarse</a>
+                    <MDBBtn className="float-right" color="indigo" type="submit">Login</MDBBtn>
                 </div>
             </form>
         </MDBCardBody>
