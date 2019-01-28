@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { MDBCol, MDBContainer, MDBRow } from "mdbreact";
 import Login from "./components/Login";
 import "./index.css";
-import logo from "./logo.png";
+import logo from "./logo.jpeg";
 
 class App extends Component {
   render() {
