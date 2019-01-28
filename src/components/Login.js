@@ -29,8 +29,9 @@ const FormPage = () => {
                     validate
                     />
                 </div>
-                <div className="text-center">
-                    <MDBBtn>Login</MDBBtn>
+                <div>
+                    <a href="#" >Registrarse</a>
+                    <MDBBtn className="float-right">Login</MDBBtn>
                 </div>
             </form>
         </MDBCardBody>
