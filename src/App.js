@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@rmwc/button';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Button>Hello World</Button>
         </header>
       </div>
     );
